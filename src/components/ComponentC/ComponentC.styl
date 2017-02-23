@@ -4,3 +4,6 @@
 
 .component-c
     color: pink
+
+    // Stylus will trigger an error, but the stacktrace will point to the first file that mutated the options
+    // background: rgba($not-existing-value, .5)
